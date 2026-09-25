@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: #0b1a3a;
+}
+
+#sky {
+  position: relative;
+  height: 85vh;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#info {
+  text-align: center;
+  padding-top: 60px;
+}
+
+#title {
+  font-size: 60px;
+  margin: 0;
+}
+
+#clock {
+  font-size: 24px;
+}
+
+.star {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+#controls {
+  height: 15vh;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#controls p {
+  margin: 0;
+  padding-top: 15px;
+  font-size: 18px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
